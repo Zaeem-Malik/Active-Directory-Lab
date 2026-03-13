@@ -6,7 +6,7 @@ Set up and configure Active Directory in a virtual environment.
 ## Tools Used 
 - Windows Server 
 - VirtualBox / VMware
-- Active Directory Domain Services
+- Active Directory Domain Services 
 
 ## Steps
 1. Installed Windows Server
