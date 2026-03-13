@@ -22,8 +22,8 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
-<p align="center">
-Head over to Oracle VirtualBox (https://www.virtualbox.org/wiki/Downloads) to download virtualbox for windows and the extension pack: <br/>
+
+Head over to Oracle VirtualBox (https://www.virtualbox.org/wiki/Downloads) to download virtualbox for windows and the extension pack: <br/> <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
