@@ -23,8 +23,10 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 ## Steps
 
-Head over to Oracle VirtualBox (https://www.virtualbox.org/wiki/Downloads) to download virtualbox for windows and the extension pack.
+Download Oracle VirtualBox and the extension pack (https://www.virtualbox.org/wiki/Downloads)  
+
 Download Windows Server 2019 (https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
+
 Download Windows 10 (https://www.microsoft.com/en-us/software-download/windows10) <br/> <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
