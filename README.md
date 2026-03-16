@@ -30,6 +30,9 @@ Step 2: Download Windows Server 2019 (https://www.microsoft.com/en-us/evalcenter
 Step 3: Download Windows 10 (https://www.microsoft.com/en-us/software-download/windows10)
 
 Tip: Note file location for all three downloads<br/> <br/>
+
+Step 4: Click on “New” and name the VM as you would like, I chose to name it DC for ‘domain controller’. Then for OS choose “Microsoft Windows” and for OS Version choose “Other Windows (64-bit)” as shown below. 
+
 ![Active Directory Installation](AD-test.gif)
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
