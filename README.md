@@ -46,16 +46,16 @@ Step 6: Click on storage and ‘add optical drive’, then select the Windows se
 <img src="https://i.imgur.com/D7EjDCJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 7: In General, in the features tab change ‘shared clipboard’ and ‘drag-and-drop’ to ‘bi-directional’. This will allow us to copy + paste and drag/drop files from our actual machine to the VM.  <br/>
+<img src="https://i.imgur.com/ScpWhqX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 8: Go to the network tab, ensure the first network adapter is attached to NAT, and enable the second adapter and attach it to the internal network. <br/>
+<img src="https://i.imgur.com/wjCtZgj.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 9: We are finally ready to launch our VM. Choose language, time, and keyboard preference on the next page click “Install now’. Make sure you choose ‘Windows Server 2019 Standard Evaluation (Desktop Experience) as shown below. This will give us the GUI. After that select custom install. The installation will take a few minutes.   <br/>
+<img src="https://i.imgur.com/7vLznF3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
