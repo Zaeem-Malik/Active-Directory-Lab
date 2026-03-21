@@ -58,10 +58,38 @@ Step 9: We are finally ready to launch our VM. Choose language, time, and keyboa
 <img src="https://i.imgur.com/7vLznF3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 10: Set password and proceed to login, when prompted to hit ‘CTRL + ALT + Delete’ go to input < keyboard < insert ctrl + alt + delete, as shown below.   <br/>
+<img src="https://i.imgur.com/OhYvxY7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hZN9CUJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 11: Navigate to network < ethernet < change adapter options. Right click each ethernet < status < details. Look at the IPv4 address to determine if it is internet facing or internal. If the IP address starts with 169 this is an APIPA address meaning it does not have access to the internet, we will rename this ‘internal’. The other IP address will start with 10, this is connected to the internet, we will rename it ‘internet’.  <br/>
+<img src="https://i.imgur.com/KPU7BIL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gA2PJ5i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Step 12: Right click on the internal network < properties < Internet Protocol Version 4 (TCP/IPv4).  Select ‘use the following ip address’ to manually assign a static ip address to the server. Set the IP address as 172.16.0.1(IP addresses from 172.16.0.0-172.31.255.255 are private), the subnet mask to 255.255.255.0, and the preferred dns to 127.0.0.1 (Since the server will host the DNS service we use the loopback address).  <br/>
+<img src="https://i.imgur.com/7du8eT3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Step 13: We will now install the AD domain services.  In the server manager dashboard click ‘add roles and features’ < next < next < select the server < next < active directory domain services < next < next < next < install.    <br/>
+<img src="https://i.imgur.com/0JPByEL.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+Step 14: In order to promote the server to a domain controller, click on the flag that has a notification next to it in the server manager dashboard. Click ‘add new forest’ and name the domain, I chose ‘mydomain.com’. Click next and enter a password. Keep clicking next and then install. Once it finishes it will restart the computer. When you login again you will see the domain name and the admin name.  <br/>
+<img src="https://i.imgur.com/xCIt8sQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Kke6P8H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+
+
+
+
+
+
+
+
+
 </p>
